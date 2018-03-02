@@ -4,7 +4,7 @@ from setuptools import find_packages, setup
 
 install_requires = [
     'factory-boy>=2.8.0',
-    'wagtail>=1.8',
+    'wagtail>=2.0',
 ]
 
 docs_require = [
@@ -51,8 +51,6 @@ setup(
     classifiers=[
         'Development Status :: 1 - Planning',
         'License :: OSI Approved :: MIT License',
-        'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.3',
         'Programming Language :: Python :: 3.4',
